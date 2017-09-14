@@ -2,10 +2,10 @@
   <arg name="debug" default="false" />
   <arg name="use_viz" default="true" />
 
-  <include file="$(find stackit_robot)/dynamixel_separate.launch">
+  <include file="$(find trcp_stackit)/dynamixel_separate.launch">
     <arg name="debug" value="$(arg debug)" />
     <arg name="use_viz" value="$(arg use_viz)" />
   </include>
 
-  <include file="$(find stackit_robot)/start_controllers.launch" />
+  <include file="$(find trcp_stackit)/start_controllers.launch" />
 </launch>

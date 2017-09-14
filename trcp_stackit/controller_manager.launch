@@ -3,7 +3,7 @@
         <rosparam>
             namespace: dxl_manager
             serial_ports:
-                dynamixel_ax12:
+                dynamixel_mx64:
                     port_name: "/dev/ttyUSB0"
                     baud_rate: 1000000
                     min_motor_id: 1

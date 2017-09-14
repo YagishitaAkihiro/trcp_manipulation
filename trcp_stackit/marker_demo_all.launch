@@ -1,7 +1,7 @@
 <launch>
-    <include file="$(find stackit_robot)/controller_manager.launch"/>
-    <include file="$(find stackit_robot)/start_controllers.launch"/>
-    <node name="stackit_robot_joint_state_publisher" pkg="stackit_robot" type="stackit_robot_joint_state_publisher.py" output="screen"/>
-    <include file="$(find stackit_robot_moveit_config)/launch/move_group.launch"/>
-    <include file="$(find stackit_robot)/marker_detect.launch"/>
+    <include file="$(find trcp_stackit)/controller_manager.launch"/>
+    <include file="$(find trcp_stackit)/start_controllers.launch"/>
+    <node name="stackit_robot_joint_state_publisher" pkg="trcp_stackit" type="stackit_robot_joint_state_publisher.py" output="screen"/>
+    <include file="$(find trcp_stackit_moveit_config)/launch/move_group.launch"/>
+    <include file="$(find trcp_stackit)/marker_detect.launch"/>
 </launch>
