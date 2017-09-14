@@ -1,1 +1,2 @@
-
+torkのros_seminar_manipulationをdynamixel MX-64で作ってみたものになります。
+なぜか、ikfastができないので、現状はros_seminar_manipulationからikfast_pluginを借りて動くというのが現実。
